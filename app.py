@@ -13,3 +13,6 @@ def info():
 @application.route("/owner")
 def owner():
     return render_template("owner.html")
+
+if __name__ == "__main__":
+    app.run()
